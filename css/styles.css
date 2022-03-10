@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2? family= Open+Sans:wght@300;400;700 & display=swap');
 
 :root {
-    --bg-gray: #ddd; 
+    --bg-gray: #ddd;
+    --text-gray: #4a4a4a; 
     --color-primary: #4D41C0;
     --white: #fff;
+    
 }
 
 * {
@@ -58,4 +60,52 @@ a, a:hover {
 .dsmove-contact-container img {
     margin-right: 10px ;
 
+}
+
+#dsmove-card-list {
+
+    padding:40px 0 ; 
+}
+
+
+.dsmove-card {
+    width: 200px;
+    background-color: var(--white);
+}
+
+.dsmove-card img {
+width: 100%;
+border-radius: 8px 8px 0 0;
+}
+
+.dsmove-card-description {
+    background-color: var(--white);
+    padding: 10px 0 20px;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    border-radius: 0 0 8px 8px;
+
+}
+
+.dsmove-card-description h3 {
+    font-size:14px ;
+    font-weight: 700;
+    margin-bottom:25px ;
+}
+
+.dsmove-btn, .dsmove-btn:hover {
+    width: 180px;
+    height: 40px;
+    background-color:var(--color-primary) ;
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+
+
+    
 }
