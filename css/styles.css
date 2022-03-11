@@ -113,3 +113,9 @@ border-radius: 8px 8px 0 0;
 
     
 }
+
+.dsmove-form-container {
+   padding: 40px 0;
+   max-width: 350px;
+
+}
